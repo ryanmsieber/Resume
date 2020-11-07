@@ -56,7 +56,18 @@ li a:hover:not(.active) {
 
 .box:hover {
   background-color: #F08080;
+  font-size: 0;
   
+}
+
+.box:hover:after{
+   content: attr(data-hover);
+   font-size: 30px;
+   line-height: 28px;
+   font-weight: 250;
+   color: black;
+   text-align: center;
+
  }
  
   span:hover + box {
@@ -128,11 +139,13 @@ li a:hover:not(.active) {
 <li><a href="index.html">Home</a></li>
 </ul>
 
-<div class="box" style="color: white; text-decoration: none; text-align: left">
-<br>
-<h2>Collective Health</h2>
-  <h3>Client Support Associate</h3>
+<div class="box"
+    data-hover=
+    "As a Client Support Associate, I supported a variety of inquiries from a diverse set of clients.">
+<h2 style="color: white; text-decoration: none; text-align: center">Collective Health</h2>
 
+  <h3 style="color: white; text-decoration: none; text-align: center">Client Support Associate</h3>
+  
 </div>
 
 <div class="box2" style="color: white; text-decoration: none; text-align: left">
