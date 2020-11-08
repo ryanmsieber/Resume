@@ -50,13 +50,17 @@ li a:hover:not(.active) {
     width: 100%;
     height: 200px;
     background-color: black;
-    padding:10px;
     color: white;
+    line-height: 2.5;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .box:hover {
   background-color: #F08080;
   font-size: 0;
+  text-align: center;
+  color: black;
   
 }
 
@@ -65,8 +69,11 @@ li a:hover:not(.active) {
    font-size: 30px;
    line-height: 28px;
    font-weight: 250;
-   color: black;
    text-align: center;
+   line-height: 5.5;
+   display: inline-block;
+   vertical-align: middle;
+
 
  }
  
@@ -81,14 +88,40 @@ li a:hover:not(.active) {
     width: 100%;
     height: 200px;
     background-color: black;
+    padding:10px;
     color: white;
-    padding: 10px;
+    line-height: 2.5;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .box2:hover {
   background-color: #F08080;
+  font-size: 0;
+  text-align: center;
+  color: black;
+  line-height: 2.5;
+  display: inline-block;
+  vertical-align: middle;
+  
 }
 
+.box2:hover:after{
+   content: attr(data-hover);
+   font-size: 30px;
+   line-height: 28px;
+   font-weight: 250;
+   text-align: center;
+   line-height: 5.5;
+   display: inline-block;
+   vertical-align: middle;
+
+
+ }
+ 
+  span:hover + box2 {
+  display: block;
+}
 
 .box3 {
     position: relative;
@@ -97,13 +130,38 @@ li a:hover:not(.active) {
     width: 100%;
     height: 200px;
     background-color: black;
-        color: white;
-    padding: 10px;
+    padding:10px;
+    color: white;
+    line-height: 2.5;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .box3:hover {
-  background-color: #B22222;
+  background-color: #F08080;
+  font-size: 0;
+  text-align: center;
+  color: black;
+  
 }
+
+.box3:hover:after{
+   content: attr(data-hover);
+   font-size: 30px;
+   line-height: 28px;
+   font-weight: 250;
+   text-align: center;
+   line-height: 5.5;
+   display: inline-block;
+   vertical-align: middle;
+
+
+ }
+ 
+  span:hover + box3 {
+  display: block;
+}
+
 
 .box4 {
     position: relative;
@@ -112,14 +170,37 @@ li a:hover:not(.active) {
     width: 100%;
     height: 200px;
     background-color: black;
-        color: white;
-    padding: 10px;
+    padding:10px;
+    color: white;
+    line-height: 2.5;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .box4:hover {
-  background-color: #228B22;
+  background-color: #F08080;
+  font-size: 0;
+  text-align: center;
+  color: black;
+  
 }
 
+.box4:hover:after{
+   content: attr(data-hover);
+   font-size: 30px;
+   line-height: 28px;
+   font-weight: 250;
+   text-align: center;
+   line-height: 5.5;
+   display: inline-block;
+   vertical-align: middle;
+
+
+ }
+ 
+  span:hover + box4 {
+  display: block;
+}
 
 </style>
 
@@ -142,31 +223,31 @@ li a:hover:not(.active) {
 <div class="box"
     data-hover=
     "As a Client Support Associate, I supported a variety of inquiries from a diverse set of clients.">
-<h2 style="color: white; text-decoration: none; text-align: center">Collective Health</h2>
-
+  <h2 style="color: white; text-decoration: none; text-align: center">Collective Health</h2>
   <h3 style="color: white; text-decoration: none; text-align: center">Client Support Associate</h3>
   
 </div>
 
-<div class="box2" style="color: white; text-decoration: none; text-align: left">
-<br>
-<h2>Collective Health</h2>
-<h3>Member Advocate</h3>
-</a>
+<div class="box2" 
+    data-hover=
+    "As a Member Advocate, I answered phone calls.">
+ <h2 style="color: white; text-decoration: none; text-align: center">Collective Health</h2>
+ <h3 style="color: white; text-decoration: none; text-align: center">Member Advocate</h3>
 </div>
 
-<div class="box3" style="color: white; text-decoration: none; text-align:left">
-<br>
-<h2>University of Utah</h2>
-<h3>Psychiatric Technician</h3>
-</a>
+<div class="box3"
+   data-hover=
+    "As a Psychiatric Technician, I did some wiiiiiild stuff.">
+  <h2 style="color: white; text-decoration: none; text-align: center">University of Utah</h2>
+  <h3 style="color: white; text-decoration: none; text-align: center">Psychiatric Technician</h3>
 </div>
 
-<div class="box4" style="color: white; text-decoration: none; text-align: left">
-<br>
-<h2>New Hanover Regional</h2>
-  <h3>Psychiatric Technician</h3>
-  </a>
+<div class="box4" 
+        data-hover=
+    "As a Psychiatric Technician, I did the most">
+  <h2 style="color: white; text-decoration: none; text-align: center">New Hanover Regioanl Medical Center</h2>
+  <h3 style="color: white; text-decoration: none; text-align: center">Psychiatric Technician</h3>
+  
 </div>
-
+  </body>
   </html>
