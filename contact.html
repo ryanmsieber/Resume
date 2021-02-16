@@ -62,12 +62,26 @@ li.dropdown {
   padding: 10px;
 }
 
-.column {
-  float: right;
-  width: 33%;
+.whiterow1 {
+  float: left;
+  width: 100%;
   padding: 50x;
-
+  border-style: solid;
+  border-color:white;
+  background-color:white;
+  column-count: 3;
+  
+  }
+  
+.whiterow2 {
+  float: left;
+  width: 100%;
+  padding: 50x;
+  border-style: solid;
+  border-color:white;
+  background-color:white;
 }
+
   
   .lacerow {
   float: left;
@@ -80,10 +94,6 @@ li.dropdown {
 </style>
 
 </head>
-
-<div class="header">
-  <h1>Ryan Sieber</h1>
-</div>
 
 <body>
 
@@ -109,8 +119,14 @@ li.dropdown {
 
 </ul>
 
-    <div class="column">
+    <div class="whiterow1">
+<h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur</p>    
+
+<h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretiuma tristique. Quisqumsan convallis.</p>     
     <h2>Contact Ryan</h2>
+     
 <form>
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname"><br>
@@ -123,21 +139,14 @@ li.dropdown {
   <br>
    <input type="submit" value="Submit">
 </form>
-  </div>
-  
-  <div class="column">
-    <h2>Column</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-  </div>
-  
-  <div class="column">
-    <h2>Column</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-  </div>
+ </div>
+ 
   ______________________________________________________________________________________________________________________________
-  <h2>STAY IN TOUCH</h2>
+<div class="whiterow2"
+ <h2>STAY IN TOUCH</h2>
   <p>To stay in touch, follow me on <a href="https://www.facebook.com/ryan.sieber.12">Facebook</a>, <a href="https://twitter.com/ryry0900">Twitter</a>, and <a href="https://www.linkedin.com/in/ryansieber/">Linkedin</a><p>
-  
+ </div>
+
   <div class="lacerow">
     <h2>Join me!</h2>
     <p>I would love to keep in touch with all of my fans</p>
@@ -156,6 +165,5 @@ li.dropdown {
 </a>
  </div>
   
-
-  
-</div>
+</body>
+</html>
