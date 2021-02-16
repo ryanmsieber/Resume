@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  * {
+  box-sizing: border-box;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ 
+li {
+  float: right;
+}
+
+li a,  .dropbtn {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+}
+
+.whiterow1 {
+  float: left;
+  width: 100%;
+  padding: 50x;
+  border-style: solid;
+  border-color:white;
+  background-color:white;
+  column-count: 2;
+  
+  }
+  
+.whiterow2 {
+  float: left;
+  width: 100%;
+  padding: 50x;
+  border-style: solid;
+  border-color:white;
+  background-color:white;
+}
+
+.lacerow {
+  float: left;
+  width: 100%;
+  padding: 50x;
+  border-style: solid;
+  border-color: OldLace;
+  background-color: OldLace;
+
+</style>
+
+</head>
+
+<body>
+
+<ul>
+<li><a href="contact.html">Contact</a></li>
+<li class="dropdown">
+<a href="education.html" class="dropbtn">Education</a>
+   <div class="dropdown-content">
+      <a href="www.google.com">Link 1</a>
+      <a href="www.google.com">Link 2</a>
+      <a href="www.google.com">Link 3</a>
+    </div>
+</li>
+<li style="float:left"><a href="about.html">About</a></li>
+<li class="dropdown"; style="float:left">
+<a href="experience.html" class="dropbtn">Experience</a>
+    <div class="dropdown-content">
+      <a href="www.google.com">Link 1</a>
+      <a href="www.google.com">Link 2</a>
+      <a href="www.google.com">Link 3</a>
+    </div>
+</li>
+<li style="float:none; font-size: 35px;"><a href="index.html">Ryan Sieber</a></li>
+
+</ul>
+
+
+<div class="whiterow">  
+<img src="https://pbs.twimg.com/profile_images/1356760847461216256/SQHI0aHA_400x400.jpg" alt="alternatetext" style="float:right">
+<h1>Collective Health</h1>
+<h2 style="float: left"> Collective Health is what it is, I guess?</h2>
+</div>
+
+   <div class="lacerow">
+    <h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+  
+  </body>
+</html>
