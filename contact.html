@@ -55,7 +55,6 @@ li.dropdown {
   display: block;
 }
 
-
 .header {
   background-color: #FFFFFF;
   text-align: center;
@@ -63,34 +62,72 @@ li.dropdown {
 }
 
 .whiterow1 {
-  float: left;
-  width: 100%;
-  padding: 50x;
+  width: 33%;
+  padding: 25px;
   border-style: solid;
   border-color:white;
   background-color:white;
-  column-count: 3;
+  float: right;
+  margin-right: 50px;
+
   
   }
   
-.whiterow2 {
-  float: left;
-  width: 100%;
-  padding: 50x;
+  .whiterow12 {
+  width: 33%;
+  padding:50px;
   border-style: solid;
   border-color:white;
   background-color:white;
-}
+  float: right;
+  text-align: center;
 
   
-  .lacerow {
-  float: left;
-  width: 100%;
-  padding: 50x;
-  border-style: solid;
-  border-color: OldLace;
-  background-color: OldLace;
+  }
+
   
+ .toprow {
+width: 100%;
+height: 25px;
+border-style: solid;
+border-color: #B22222;
+background-color: #B22222;
+ 
+ }
+   
+.first {
+ margin: 25px 100px 75px 130px;
+
+ }
+ 
+ 
+.left {
+  width: 60%;
+  float: left;
+  padding: 15px;
+
+
+}
+
+.right {
+  width: 40%;
+  float: right;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #B22222;
+  color: white;
+  text-align: center;
+  height: 250px;
+  font-size: 25px;
+}
+
+   
 </style>
 
 </head>
@@ -119,17 +156,22 @@ li.dropdown {
 
 </ul>
 
-<div class="whiterow1">
-<h2>Column</h2>
-<p>Lorem ipsum dolor sit amet, consectetursforem ipsum dolor sit amet, consectetursforem ipsum dolor sit amet, forem ipsum dolor sit amet, consectetursforem iLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretiuma tristique. Quisqumsan convactetursforem ipsum dolor sit amet,  sit amet,  consectetursforem ipsum dolor sit amet, consectetursf psum dolor sit amet, consectetursforem ipsum dolor sit amet, consectetursforem ipsum dolor sit amet, consectetursforem ipsum dolor sit amet, consectetursfamet, consectetursforem ipsum dolor sit amet, consectetursforem ipsum dolor sit amet, forem ipsum dolor sit amet, consectetursforem iLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretiuma tristique. Quisqumsan convactetursforem ipsum dolor sit amet,  sit amet,  consectetursforem ipsum dolor sit amet, consectetursf psum dolor sit amet, consectetursforem ipsum dolor sit amet, consectetursforem ipsum dolor sit amet, consectetursforem ipsum dolor sit amet, consectetursf  f</p>
-
-<h2>Column</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretiuma tristique. Quisqumsan convactetursforem ipsum dolor sit amet,  sit amet,  consectetursforem ipsum dolor sit amet, consectetursf
->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretiuma tristique. Quisqumsan convactetursforem ipsum dolor sit amet,  sit amet,  consectetursforem ipsum dolor sit amet, consectetursf 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretiuma tristique. Quisqumsan convactetursforem ipsum dolor sit amet,  sit amet,  consectetursforem ipsum dolor sit amet, consectetursf 
-ipiscing elit. Maecenas sit amet pretiuma tristique. Quisqumsan convactetursforem ipsum dolor sit amet,  sit amet,  consectetursforem ipsum dolor sit amet, consectetursf</p>  
-<h2>Contact Ryan</h2>
-     
+<div class="first">
+<div class="left">
+ <h1><u>How you can reach me<u></h1>
+<h1>Name</h1>
+<p style="font-size:25px">Ryan Sieber</p>
+<h1>Email Address</h1>
+<p style="font-size:25px">ryanmsieber@gmail.com</p>
+<h1>Phone Number</h1>
+<p style="font-size:25px">801-550-2068</p>
+<h1>LinkedIn</h1>
+ <p style="font-size:25px">https://www.linkedin.com/in/ryansieber/</p>
+ </div>
+ 
+<div class="right">
+ <h1>How I can reach you!</h1>
+ <p style="font-size:25px">I am always happy to hear from new people. Submit your information below, and look out for a message from me!</p>
 <form>
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname"><br>
@@ -143,30 +185,17 @@ ipiscing elit. Maecenas sit amet pretiuma tristique. Quisqumsan convactetursfore
    <input type="submit" value="Submit">
 </form>
  </div>
- 
-  ______________________________________________________________________________________________________________________________
-<div class="whiterow2">
- <h2>STAY IN TOUCH</h2>
-  <p>To stay in touch, follow me on <a href="https://www.facebook.com/ryan.sieber.12">Facebook</a>, <a href="https://twitter.com/ryry0900">Twitter</a>, and <a href="https://www.linkedin.com/in/ryansieber/">Linkedin</a><p>
  </div>
 
-  <div class="lacerow">
-    <h2>Join me!</h2>
-    <p>I would love to keep in touch with all of my fans</p>
-    <form>  
-  <input type="text" id="email" name="email" value="Email Address"><input type="submit" value="Sign Up"><br>
-  <p>(I will never share your informaton with anybody else, promise!)</p>   
-    </form>
-      <a href="https://twitter.com/ryry0900">
-<img src="twitter.png" alt="twitter" style="width:42px;height:42px;">
-</a>
-  <a href="https://www.facebook.com/ryan.sieber.12">
-<img src="facebook.png" alt="facebook" style="width:42px;height:42px;">
-</a>
-  <a href="https://www.linkedin.com/in/ryansieber/">
-<img src="linkedin.png" alt="LinkedIn" style="width:42px;height:42px;">
-</a>
- </div>
-  
+
 </body>
+ 
+ <div class="footer">
+  <h1>Get in touch!</h1>
+  <p style="font-size:25px">If you would like to connect, leave me a message!</p>
+  <form>
+  <input type="text" id="message" name="message" value="Message"><input type="submit" value="Submit"><br>
+     </form>
+</div>
+ 
 </html>
